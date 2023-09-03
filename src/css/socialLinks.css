@@ -1,0 +1,28 @@
+.linkDIn {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.linkDIn:hover {
+  cursor: pointer;
+  background-color: rgba(10, 102, 194, 0.8) !important;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.gitHub {
+  transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+}
+
+.gitHub:hover {
+  cursor: pointer;
+  background-color: rgba(10, 13, 51, 0.8) !important;
+
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.anchor {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+
+}

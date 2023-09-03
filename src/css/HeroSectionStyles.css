@@ -1,0 +1,38 @@
+.background-image {
+  background-image: url('/dose-media-bU6JyhSI6zo-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+
+
+  background-attachment: fixed;
+}
+
+.overlay {
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90vh;
+}
+
+.hero-div {
+  margin-bottom: 5rem;
+
+}
+
+.background-hero {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 10rem;
+
+}
+
+.header-p {
+  max-width: 40rem;
+}

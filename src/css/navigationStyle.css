@@ -1,0 +1,41 @@
+body {}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  float: right;
+  margin-inline: 1.5rem;
+}
+
+.nav-brand {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-left: 25rem;
+  color: black;
+}
+
+.nav-container {
+  margin-right: 10rem;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+@media (max-width:1200px) {
+  #navigation-bar {}
+
+
+  #navigation-links {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}

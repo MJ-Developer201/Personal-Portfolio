@@ -1,0 +1,13 @@
+@media (max-width:1100px) {
+  #contact-section {
+    grid-template-columns: 1fr !important;
+  }
+
+  .form-section {
+    order: 2 !important;
+  }
+
+  .contact-me-section {
+    order: 1 !important;
+  }
+}

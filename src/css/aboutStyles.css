@@ -1,0 +1,9 @@
+.blog-button {
+  padding-inline: 0.3rem;
+}
+
+@media (max-width:1100px) {
+  .about-section {
+    grid-template-columns: 1fr !important;
+  }
+}
