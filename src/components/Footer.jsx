@@ -46,7 +46,6 @@ export default function MaterialFooter() {
         }}
       >
         <h2 style={{ marginBottom: '2rem' }}>Contact Me</h2>
-        <h6>marc.dev201@gmail.com</h6>
       </div>
     </div>
   )
